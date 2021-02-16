@@ -23,6 +23,7 @@ I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1
 I1I1I1I1I1I1I1I1I1I1I1I1I1llI1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1I1
 I1I1I1I1I1I1llI1I1I1lllIlIlIlIlIlIlllIlIlIlIlIlIlIlIll
 ```
+<br>
 
 ## 使い方
 Pole.exeがインタプリタの実行ファイル、Pole.nimがインタプリタのソースファイルです。  
@@ -32,3 +33,11 @@ Pole.exeが存在するディレクトリに移動し、以下のコマンドで
 ```
 ./Pole [実行するソースコードのパス]
 ```
+<br>
+
+## サンプルコードの実行
+「hello.pole」がHello Worldと表示するサンプルコードです。
+```
+./Pole hello.pole
+```
+で実行できます。
