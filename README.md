@@ -26,18 +26,18 @@ I1I1I1I1I1I1llI1I1I1lllIlIlIlIlIlIlllIlIlIlIlIlIlIlIll
 <br>
 
 ## 使い方
-Pole.exeがインタプリタの実行ファイル、Pole.nimがインタプリタのソースファイルです。  
-インタプリタは以前から興味のあったNim言語で実装しています。  
-ほぼ正常系しか組んでないのでガバガバです。  
-Pole.exeが存在するディレクトリに移動し、以下のコマンドでPoleを実行できます。
+C++版と以前から興味のあったNim言語で実装した版のインタプリタがあります。<br>
+Mac用の実行ファイルはそれぞれ「Pole_cpp」「Pole_nim」で、ソースファイルは「Pole.cpp」「Pole.nim」です。<br>
+Nim版はほぼ正常系しか組んでいないのでガバガバです。<br>
+実行ファイルが存在するディレクトリに移動し、以下のコマンドでPoleを実行できます。<br>
 ```
-./Pole [実行するソースコードのパス]
+./Pole_cpp [実行するソースコードのパス]
 ```
 <br>
 
 ## サンプルコードの実行
-「hello.pole」がHello Worldと表示するサンプルコードです。
+「hello.pole」はHello Worldと表示するサンプルコードです。
 ```
-./Pole hello.pole
+./Pole_cpp hello.pole
 ```
 で実行できます。
